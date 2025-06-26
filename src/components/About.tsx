@@ -35,7 +35,7 @@ const About: React.FC = () => {
             </h2>
             <div className="space-y-6 text-lg text-gray-600 leading-relaxed">
               <p>
-                I'm a passionate Data Scientist & AI/ML Engineer with over 5 years of experience transforming 
+                I'm a passionate Data Scientist & AI / ML Engineer with over 5 years of experience transforming 
                 complex data challenges into intelligent, scalable solutions. My expertise spans 
                 the entire machine learning lifecycle, from research and experimentation to 
                 production deployment and monitoring.
