@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Mail, Phone, MapPin, Send, Github, Linkedin, Twitter, CheckCircle } from 'lucide-react';
+import emailjs from '@emailjs/browser';
 
 const Contact: React.FC = () => {
   const [formData, setFormData] = useState({
@@ -10,13 +11,35 @@ const Contact: React.FC = () => {
   });
   const [isSubmitted, setIsSubmitted] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    // Simulate form submission
+  // const handleSubmit = (e: React.FormEvent) => {
+  //   e.preventDefault();
+  //   // Simulate form submission
+  //   setIsSubmitted(true);
+  //   setTimeout(() => setIsSubmitted(false), 3000);
+  //   setFormData({ name: '', email: '', subject: '', message: '' });
+  // };
+
+  const handleSubmit = async (e: React.FormEvent) => {
+  e.preventDefault();
+
+  try {
+    const result = await emailjs.send(
+      'service_n32bjyn',     // Replace with your actual Service ID
+      'template_t3i9qeq',    // Replace with your actual Template ID
+      formData,
+      '3Gy9s0pdjl8a9FgiE'      // Replace with your actual Public Key
+    );
+
+    console.log(result.text);
     setIsSubmitted(true);
-    setTimeout(() => setIsSubmitted(false), 3000);
     setFormData({ name: '', email: '', subject: '', message: '' });
-  };
+    setTimeout(() => setIsSubmitted(false), 3000);
+  } catch (error) {
+    console.error(error);
+    alert('Failed to send message. Please try again later.');
+  }
+};
+
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setFormData({
