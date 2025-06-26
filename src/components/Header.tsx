@@ -90,7 +90,7 @@ const Header: React.FC = () => {
                 <a href="https://www.linkedin.com/in/divyanparmar/" className="text-white/80 hover:text-white transition-colors duration-200" >
                   <Linkedin className="h-5 w-5" />
                 </a>
-                <a href="divyanparmar3@gmail.com" className="text-white/80 hover:text-white transition-colors duration-200">
+                <a href="mailto:divyanparmar3@gmail.com" className="text-white/80 hover:text-white transition-colors duration-200">
                   <Mail className="h-5 w-5" />
                 </a>
               </div>
