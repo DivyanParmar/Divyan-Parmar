@@ -75,12 +75,15 @@ const Hero: React.FC = () => {
       </div>
 
       {/* Scroll Indicator */}
-      <button 
-        onClick={() => scrollToSection('about')}
-        className="absolute bottom-8 left-1/2 transform -translate-x-1/2 text-white/60 hover:text-white transition-colors duration-200 animate-bounce"
-      >
-        <ChevronDown className="h-8 w-8" />
-      </button>
+      <div className="absolute bottom-8 w-full flex justify-center">
+  <button 
+    onClick={() => scrollToSection('about')}
+    className="text-white/60 hover:text-white transition-colors duration-200 animate-bounce"
+  >
+    <ChevronDown className="h-8 w-8" />
+  </button>
+</div>
+
     </section>
   );
 };
