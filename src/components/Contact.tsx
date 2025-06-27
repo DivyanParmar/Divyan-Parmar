@@ -92,7 +92,7 @@ const Contact: React.FC = () => {
                 </div>
                 <div>
                   <div className="text-gray-300">Email</div>
-                  <div className="text-lg">contact@aimlportfolio.com</div>
+                  <div className="text-lg">divyanparmar3@gmail.com</div>
                 </div>
               </div>
 
@@ -102,7 +102,7 @@ const Contact: React.FC = () => {
                 </div>
                 <div>
                   <div className="text-gray-300">Phone</div>
-                  <div className="text-lg">+1 (555) 123-4567</div>
+                  <div className="text-lg">+91 9978842390</div>
                 </div>
               </div>
 
@@ -112,7 +112,7 @@ const Contact: React.FC = () => {
                 </div>
                 <div>
                   <div className="text-gray-300">Location</div>
-                  <div className="text-lg">San Francisco, CA</div>
+                  <div className="text-lg">Bengaluru, India</div>
                 </div>
               </div>
             </div>
@@ -122,19 +122,19 @@ const Contact: React.FC = () => {
               <h4 className="text-lg font-semibold mb-6">Connect With Me</h4>
               <div className="flex space-x-4">
                 <a
-                  href="#"
+                  href="https://github.com/DivyanParmar"
                   className="group bg-gray-800 hover:bg-gradient-to-r hover:from-indigo-500 hover:to-purple-600 w-12 h-12 rounded-xl flex items-center justify-center transition-all duration-300"
                 >
                   <Github className="h-6 w-6 group-hover:scale-110 transition-transform duration-200" />
                 </a>
                 <a
-                  href="#"
+                  href="https://www.linkedin.com/in/divyanparmar/"
                   className="group bg-gray-800 hover:bg-gradient-to-r hover:from-indigo-500 hover:to-purple-600 w-12 h-12 rounded-xl flex items-center justify-center transition-all duration-300"
                 >
                   <Linkedin className="h-6 w-6 group-hover:scale-110 transition-transform duration-200" />
                 </a>
                 <a
-                  href="#"
+                  href="https://x.com/DivyanParmar3"
                   className="group bg-gray-800 hover:bg-gradient-to-r hover:from-indigo-500 hover:to-purple-600 w-12 h-12 rounded-xl flex items-center justify-center transition-all duration-300"
                 >
                   <Twitter className="h-6 w-6 group-hover:scale-110 transition-transform duration-200" />
