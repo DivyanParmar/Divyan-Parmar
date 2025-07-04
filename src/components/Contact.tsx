@@ -774,7 +774,8 @@ const Contact: React.FC = () => {
                 </div>
 
                 {/* reCAPTCHA */}
-                <div className="my-4">
+                <div className="my-4 overflow-x-auto">
+                  <div className="inline-block transform scale-100 sm:scale-100 xs:scale-90"></div>
                   <ReCAPTCHA
                     sitekey={import.meta.env.VITE_RECAPTCHA_SITE_KEY}
                     onChange={handleRecaptchaChange}
