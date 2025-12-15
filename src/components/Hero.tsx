@@ -42,7 +42,7 @@ const Hero: React.FC = () => {
 
               
             <a
-  href="https://drive.google.com/file/d/1Q4KizvPiYoBu7clGVFIqbjxtPHS_rnG_/view?usp=drive_link"
+  href="https://drive.google.com/file/d/14kTE1sFImL-Haf5bs08nluZSXuaxZrUk/view?usp=sharing"
   target="_blank"
   rel="noopener noreferrer"
 >

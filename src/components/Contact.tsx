@@ -661,7 +661,7 @@ const Contact: React.FC = () => {
                 </div>
                 <div>
                   <div className="text-gray-300">Location</div>
-                  <div className="text-lg">Bengaluru, India</div>
+                  <div className="text-lg">Surat, Gujarat, India</div>
                 </div>
               </div>
             </div>
