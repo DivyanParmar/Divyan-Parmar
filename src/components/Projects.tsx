@@ -21,7 +21,7 @@ const Projects: React.FC = () => {
       metrics: ["100K+ Reviews/Day", "92% Sentiment Accuracy", "Real-time Processing"],
       github: "#",
       demo: "#",
-      featured: true
+      featured: false
     },
     {
       title: "Image Classification with CNN",
@@ -41,7 +41,7 @@ const Projects: React.FC = () => {
       metrics: ["Multi-modal Output", "Real-time Generation", "User-friendly UI"],
       github: "#",
       demo: "#",
-      featured: true
+      featured: false
     },
     {
       title: "Customer Churn Prediction",
@@ -72,7 +72,7 @@ const Projects: React.FC = () => {
   metrics: ["60% Reduction in Review Time", "Context-Aware Q&A", "Multi-Document Summarization"],
   github: "https://github.com/DivyanParmar/SmartDoc-AI",
   demo: "#",
-  featured: false
+  featured: true
     },
 
     {
@@ -83,7 +83,7 @@ const Projects: React.FC = () => {
   metrics: ["88% mAP Accuracy", "30 FPS Real-Time Processing", "Robust Multi-Player Tracking"],
   github: "https://github.com/DivyanParmar/VisionTrack",
   demo: "#",
-  featured: false
+  featured: true
     },
 
     {
