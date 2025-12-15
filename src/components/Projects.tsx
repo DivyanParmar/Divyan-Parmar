@@ -72,7 +72,7 @@ const Projects: React.FC = () => {
   metrics: ["60% Reduction in Review Time", "Context-Aware Q&A", "Multi-Document Summarization"],
   github: "https://github.com/DivyanParmar/SmartDoc-AI",
   demo: "#",
-  featured: true
+  featured: false
     },
 
     {
@@ -83,7 +83,7 @@ const Projects: React.FC = () => {
   metrics: ["88% mAP Accuracy", "30 FPS Real-Time Processing", "Robust Multi-Player Tracking"],
   github: "https://github.com/DivyanParmar/VisionTrack",
   demo: "#",
-  featured: true
+  featured: false
     },
 
     {
