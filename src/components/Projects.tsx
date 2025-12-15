@@ -62,6 +62,39 @@ const Projects: React.FC = () => {
       github: "https://github.com/DivyanParmar/Twitter-Sentiment-Analysis",
       demo: "#",
       featured: false
+    },
+
+    {
+  title: "SmartDoc AI – Document Intelligence System",
+  description: "Built an AI-powered document intelligence platform that extracts insights, answers user queries, and summarizes PDFs using LLMs and LangChain. Integrated Google Gemini API for contextual understanding and deployed on Streamlit Cloud, reducing document review time by 60%.",
+  image: "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800",
+  tags: ["LLMs", "LangChain", "Google Gemini API", "RAG", "PDF Processing", "Streamlit"],
+  metrics: ["60% Reduction in Review Time", "Context-Aware Q&A", "Multi-Document Summarization"],
+  github: "https://github.com/DivyanParmar/SmartDoc-AI",
+  demo: "#",
+  featured: true
+    },
+
+    {
+  title: "VisionTrack – Player Detection & Re-Identification",
+  description: "Developed a real-time sports analytics system for detecting and re-identifying players from video streams. Used YOLOv11 for detection and ReID embeddings to track players across frames, achieving 88% mAP with optimized GPU inference at 30 FPS.",
+  image: "https://images.pexels.com/photos/399187/pexels-photo-399187.jpeg?auto=compress&cs=tinysrgb&w=800",
+  tags: ["Computer Vision", "YOLOv11", "Re-Identification", "Deep Learning", "Sports Analytics", "OpenCV"],
+  metrics: ["88% mAP Accuracy", "30 FPS Real-Time Processing", "Robust Multi-Player Tracking"],
+  github: "https://github.com/DivyanParmar/VisionTrack",
+  demo: "#",
+  featured: true
+    },
+
+    {
+  title: "ChurnSense – Customer Retention Prediction",
+  description: "Built a machine learning system to predict customer churn using XGBoost and Logistic Regression. Achieved 89% ROC-AUC and delivered actionable insights through an interactive Streamlit dashboard for real-time churn monitoring.",
+  image: "https://images.pexels.com/photos/669612/pexels-photo-669612.jpeg?auto=compress&cs=tinysrgb&w=800",
+  tags: ["Machine Learning", "XGBoost", "Logistic Regression", "Customer Analytics", "Streamlit"],
+  metrics: ["89% ROC-AUC", "High-Risk Customer Identification", "Real-Time Dashboard"],
+  github: "https://github.com/DivyanParmar/ChurnSense",
+  demo: "#",
+  featured: false
     }
   ];
 
